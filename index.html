@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,7 @@
     <meta name="description" content="A free Bootstrap powerd HTML template exclusively crafted for the super lazy designers like me who designed thousand of websites till today but never got a chance to build one himself.">
     <meta name="keywords" content="Free Portfolio Template, Free Template, Free Bootstrap Template, Dribbble Portfolio Template, Free HTML5 Template">
     <meta name="author" content="EvenFly Team">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
 
     <!-- DEVEOPER'S NOTE:
     This is a free Bootstrap powered HTML template from EvenFly. Feel free to download, modify and use it for yourself or your clients as long there is no money involved.
@@ -78,8 +79,8 @@
         =========================== -->
         <div id="hero">
             <div id="home">
-                     <img style="float:left;margin-top:62px;"  src="img/minister.png" width="200" height="100" class="img-rounded">
-                      <img style="float:right;margin-top:60px;"  src="img/i.png" width="200" height="100" class="img-circle">
+                     <img style="float:left;margin-top:60px;"  src="img/minister.png" width="200" height="90" class="img-rounded">
+                      <img style="float:right;margin-top:60px;"  src="img/i.png" width="200" height="90" class="img-rounded">
 
             <div class="container-fluid herocontent">
                 <h2 class="wow fadeInUp" data-wow-duration="2s">Forum Francophone de Dakar</h2>
@@ -217,7 +218,7 @@
                 <p class="well text-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                unt in culpa qui officia deserunt mollit anim id est laborum.<br>
-               <button data-toggle="collapse" class="btn btn-primary" data-target="#more-dossier">Lire Plus</button>
+               <button data-toggle="collapse" class="btn btn-primary btn-xs" data-target="#more-dossier">Lire Plus</button>
            </p>
                 <div id="more-dossier" class="collapse">
                    <p class="well text-intro"> 
@@ -242,16 +243,23 @@
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident.<br>
-                <button data-toggle="collapse" class="btn btn-primary" data-target="#more-programme">Lire Plus</button>
+                <button data-toggle="collapse" class="btn btn-primary btn-xs" data-target="#more-programme">Lire Plus</button>
             </p>
-            <div id="more-programme" class="collapse">
-                <p class="well text-intro">
-                    Lipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div id="more-programme" class="collapse well text-long"">
+                <p >
+                    <ol>
+                        <li>On met ici les mishibishi
+                                <ul>
+                                    <li class="list-group-item">First mushibishi</li>
+                                    <li class="list-group-item">Second mushibishi</li>
+                                    <li class="list-group-item">Troisieme mushibishi</li>
+                                    <li class="list-group-item">Quatrieme mushibishi</li>
+                                    <li class="list-group-item">N-ieme mushibishi</li>
+                                </ul>
+                        </li>
+                        <li class="list-group-item">Toujours des mishibissi</li>
+                        <li class="list-group-item">Encore pleins de mishibissi</li>
+                    </ol>
                 </p>
             </div>
 
@@ -263,8 +271,8 @@
                 <h4>Participants ou Experts</h4>
                <p class="well text-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-               unt in culpa qui officia deserunt mollit anim id est laborum.
-                  <button data-toggle="collapse" class="btn btn-primary" data-target="#more-participant">Lire Plus</button>
+               unt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                  <button data-toggle="collapse" class="btn btn-primary btn-xs" data-target="#more-participant">Lire Plus</button>
             </p>
             <div id="more-participant" class="collapse">
                 <p class="well text-intro">
@@ -303,7 +311,7 @@
             consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> 
-              <button data-toggle="collapse" class="btn btn-info" data-target="#more">Lire Plus</button>
+              <button data-toggle="collapse" class="btn btn-primary btn-xs" data-target="#more">Lire Plus</button>
                 <div id="more" class="collapse">
                     <p class="text-intro well">Lorem ipsum dolor text....<br>Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -505,18 +513,35 @@
         <!-- TESTIMONIAL SECTIONHEAD END -->
 
         <!-- TESTIMONIAL ITEMS START -->
+        <div class="container">
         <div class="row">
             <div class="container">
                
             <div class="col-md-8 col-lg-8 col-md-offset-2">
                  <h3>Nous suivres</h3>
                 <input style="border:1px solid #FF358B" type="email" class="form-control" name="" required="required" placeholder="Entrer votre adresse email"><br>
-                <button type="submit" class="btn btn-primary">SOUMETTRE</button>
+                <button type="submit" style="text-align: center;" class="btn btn-primary">SOUMETTRE</button>
                 </div>
             </div>
        
         </div>
+       
+            
+            <div class="col-md-3 col-xs-3 col-lg-3 icon-social-network">
 
+                    <a class="btn btn-block btn-social btn-lg btn-google-plus">
+                      <i class="fa fa-google-plus"></i>
+                      S'inscrire avec google
+                    </a>
+
+                    <a class="btn btn-block btn-social btn-lg btn-facebook">
+                      <i class="fa fa-facebook"></i>
+                      S'inscrire avec facebook
+                    </a>
+                  </div>
+        
+
+ </div>
 
  <div id="contact" class="sectionhead wow bounceInUp" data-wow-duration="2s">
             <span class="bigicon icon-facetime-video"></span>
